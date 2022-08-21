@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="middle.css">
+    <link rel="stylesheet" href="thum.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="bg-circle"></div>
+        <header>
+            <a href="#"><img src="img/logo.png" class="logo" alt="logo"></a>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>What's new</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </header>
+        <!-- middle content -->
+        <div class="middle-container">
+            <div class="text-box">
+                <h2>It's not just coffee<br>It's <span>Starbuks</span></h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Qui sint fugit cupiditate deleniti veniam modi delectus
+                    id fuga atque at dolor ea, consectetur expedita aperiam
+                    omnis in enim tempora provident.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="image-box">
+                <img src="img/img1.png" class="starbucks">
+            </div>
+        </div>
+
+        <ul class="thum-img">
+            <li><a href="#"><img src="img/thumb1.png" onclick="imgslider('img/img1.png');  bgcolorchang('#017143')"></a>
+            </li>
+            <li><a href="#"><img src="img/thumb2.png"  onclick="imgslider('img/img2.png'); bgcolorchang('#eb7495')"></a>
+            </li>
+            <li><a href="#"><img src="img/thumb3.png"  onclick="imgslider('img/img3.png'); bgcolorchang('#d752b1')"></a>
+            </li>
+        </ul>
+        <ul class="social-media">
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

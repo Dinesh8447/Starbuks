@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    font-weight: 700;
+    padding: 100px;
+     display: flex;
+    justify-content: space-between;
+    text-align: center;
+} 
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo{
+    position: relative;
+    max-width: 80px;
+}
+
+ul{
+    position: relative;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 40px;
+    font-weight: 400;
+    color:#333;
+}
+
+
+
+
